@@ -15,22 +15,22 @@ import static org.junit.Assert.assertThat;
 
 public class ApplicationTests {
 
-	private ByteArrayOutputStream baos = new ByteArrayOutputStream();
-	private PrintStream ps = new PrintStream(baos);
+    private final ByteArrayOutputStream baos = new ByteArrayOutputStream();
+    private final PrintStream ps = new PrintStream(baos);
 
-	@Before
-	public void setup() {
-		System.setOut(ps);
-	}
+    @Before
+    public void setup() {
+        System.setOut(ps);
+    }
 
-	@Test
-	public void shouldPrintTimeToConsole() {
-		Application.main(new String[] { });
+    @Test
+    public void shouldPrintTimeToConsole() {
+        Application.main(new String[]{});
 
-		assertThat(output(), containsString("The current local time is"));
-	}
+        assertThat(output(), containsString("The current local time is"));
+    }
 
-	private String output() {
-		return new String(baos.toByteArray(), StandardCharsets.UTF_8);
-	}
+    private String output() {
+        return new String(baos.toByteArray(), StandardCharsets.UTF_8);
+    }
 }
