@@ -7,7 +7,7 @@ import java.net.DatagramSocket;
 import java.net.SocketException;
 import java.io.IOException;
 
-public class udpServer {
+public class UDPServer {
 
     public static void main(String args[]) {
 
