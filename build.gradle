@@ -6,9 +6,6 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '7.1.2'
 }
 
-
-// apply plugin: 'idea'
-
 mainClassName = 'au.edu.unimelb.ds.fatjar.Application'
 
 
@@ -21,8 +18,6 @@ shadowJar {
     manifest {
         attributes "Main-Class": "au.edu.unimelb.ds.fatjar.Application"
     }
-    
-    
     archiveBaseName = 'fatjarapp'
     archiveVersion =  '0.1.0'
 }
