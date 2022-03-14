@@ -22,7 +22,7 @@ public class TCPInteractiveServer {
 
             //Listen for incoming connections for ever
             while (true) {
-                System.out.println("Server listening on port 4447 for a connection");
+                System.out.println("Server listening on port 4444 for a connection");
                 //Accept an incoming client connection request
                 //This method will block until a connection request is received
                 try (Socket clientSocket = listeningSocket.accept();) {
