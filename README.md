@@ -36,7 +36,7 @@ You'll need to tell java where the class is located (by using classpath/cp param
 Please feel free to send pull requests if you find any issue or have recommendation for improving the code.
 
 ---
-Maintainer: zhao dot j5 at student dot unimelb dot edu dot au
+Maintainer: zhao dot j5 at student dot unimelb dot edu dot au  
 License: [The Unlicense](https://unlicense.org/) - Use it whatever and however you like.  
 Disclaimer: This repository may contain code from various authors, books, code repos, we are using it solely for teaching and education purpose.  
 If any right holder doesn't agree the code to be released publicly in this repository, please contact me for removal. 
