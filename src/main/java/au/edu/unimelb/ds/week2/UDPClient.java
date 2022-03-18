@@ -47,7 +47,6 @@ public class UDPClient {
 
         } catch (IOException e) {
             System.out.println("Socket: " + e.getMessage());
-
         }
 
     }
