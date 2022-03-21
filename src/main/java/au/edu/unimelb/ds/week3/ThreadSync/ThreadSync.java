@@ -25,6 +25,8 @@ public class ThreadSync
 		      {
 		         System.out.println("Interrupted");
 		      }
+
+			  System.out.println("Final counter: "+PD.counter);
 		   }
 }
 
