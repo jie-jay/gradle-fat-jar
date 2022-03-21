@@ -10,7 +10,7 @@ class ThreadDemo extends Thread {
     }
 
     public void run() {
-        // Synchronize the threads!
+        // Synchronize the threads! Comment out to demo a racing condition.
         synchronized (PD) {
             PD.printCount(threadName);
         }
