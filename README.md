@@ -39,7 +39,7 @@ Please feel free to send pull requests if you find any issue or have recommendat
 Demo of multi-threaded server using one thread per client/request architecture.
 A quick demo of using the synchronized keyword and a racing/inconsistent state if the thread is not synced between threads.
 
-# Homework :)
+## Homework :)
 There are two delibrate common mistakes which should be avoided while doing multi-threaded programming, can you figure them out? 
 In the print demo, thread one finishs exection before thread two starts(CPUs are so fast these days). Can you implement a version that two threads print interleaving messages?
 
