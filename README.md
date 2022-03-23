@@ -1,6 +1,6 @@
 # gradle-fat-jar
 
-This repository is a boilerplate for easily creating uber jars, as well as sample code for teaching COMP90015 tutorial. 
+This repository is a boilerplate for easily creating uber jars, as well as sample code for teaching COMP90015 tutorials. 
 # Week 1
 ## What is a fat jar(Uber jar)?
 Essentially, it's an archive(compressed) file packed with all dependencies required to run a java application, therefore end-users don't have to download them manually.  
@@ -34,6 +34,14 @@ Because in the uber jar, there is only one main class given in the manifest.
 You'll need to tell java where the class is located (by using classpath/cp parameter), and the full class name for your application's main method.
 
 Please feel free to send pull requests if you find any issue or have recommendation for improving the code.
+
+# Week 3
+Demo of multi-threaded server using one thread per client/request architecture.
+A quick demo of using the synchronized keyword and a racing/inconsistent state if the thread is not synced between threads.
+
+# Homework :)
+There are two delibrate common mistakes which should be avoided while doing multi-threaded programming, can you figure them out? 
+In the print demo, thread one finishs exection before thread two starts(CPUs are so fast these days). Can you implement a version that two threads print interleaving messages?
 
 ---
 Maintainer: zhao dot j4 at student dot unimelb dot edu dot au  
