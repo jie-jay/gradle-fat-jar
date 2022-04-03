@@ -27,5 +27,7 @@ targetCompatibility = 1.8
 
 dependencies {
     implementation("commons-cli:commons-cli:1.5.0")
+    implementation("javax.json:javax.json-api:1.1.4")
+    implementation("org.glassfish:javax.json:1.1.4")
     testImplementation("junit:junit:4.13.2")
 }
