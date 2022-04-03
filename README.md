@@ -43,6 +43,14 @@ A quick demo of using the synchronized keyword and a racing/inconsistent state i
 There are two delibrate common mistakes which should be avoided while doing multi-threaded programming, can you figure them out? 
 In the print demo, thread one finishs exection before thread two starts(CPUs are so fast these days). Can you implement a version that two threads print interleaving messages?
 
+# Week 4     
+Simple GUI demo and introduced Eclipse window builder and Netbeans GUI builder.
+Jetbrain has a GUI builder as well, but it requires additional knowledge which is not covered in this course. Therefore, it's not recommended.
+
+# Week 5
+Introducing JSON for object serialization/de-serialization. 
+
+
 ---
 Maintainer: zhao dot j4 at student dot unimelb dot edu dot au  
 License: [The Unlicense](https://unlicense.org/) - Use it whatever and however you like.  
