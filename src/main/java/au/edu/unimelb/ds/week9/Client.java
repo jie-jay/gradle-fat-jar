@@ -14,8 +14,8 @@ public class Client {
 	// IP and port
 	private static String ip = "localhost";
 
-	private final static String CLIENT_PATH = "/Users/jay/client_file/";
-	private static int port = 3003;
+	private final static String CLIENT_PATH = "e:/demo/client/";
+	private static int port = 3008;
 	
 	public static void main(String[] args) {
 		 // System.out.println(new java.io.File("").getAbsolutePath());

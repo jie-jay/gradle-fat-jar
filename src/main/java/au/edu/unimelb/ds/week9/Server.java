@@ -11,9 +11,9 @@ import javax.net.ServerSocketFactory;
 public class Server {
 	
 	// Declare the port number
-	private static int port = 3003;
+	private static int port = 3008;
 
-	private final static String SERVER_PATH = "/Users/jay/server_file/";
+	private final static String SERVER_PATH = "e:/demo/server/";
 	
 	// Identifies the user number connected
 	private static int counter = 0;
