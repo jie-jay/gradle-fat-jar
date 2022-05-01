@@ -73,7 +73,7 @@ public class Server {
 			String fileName = command.getString("file_name");
 			// Check if file exists
 			File f = new File(SERVER_PATH+fileName);
-			System.out.println("Sending file: "+ f.getAbsolutePath()+"/"+f.getName());
+			System.out.println("Sending file: "+ f.getAbsolutePath());
 			if(f.exists()){
 				// Send this back to client so that they know what the file is.
 				JsonObject trigger = Json.createObjectBuilder().add("command_name", "SENDING_FILE").add("file_name","cat.png")
