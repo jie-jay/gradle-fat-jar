@@ -1,4 +1,4 @@
-package au.edu.unimelb.ds.week5;
+package au.edu.unimelb.ds.week6;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -8,9 +8,6 @@ import java.net.Socket;
 
 import javax.json.Json;
 import javax.json.JsonObject;
-import javax.json.JsonObjectBuilder;
-import javax.json.JsonReader;
-import javax.json.stream.JsonParser;
 import javax.net.ServerSocketFactory;
 
 
@@ -52,7 +49,6 @@ public class Server {
 		try(Socket clientSocket = client;
 			DataInputStream input = new DataInputStream(clientSocket.getInputStream()); 			// Input stream
 			DataOutputStream output = new DataOutputStream(clientSocket.getOutputStream());				// Output Stream
-
 		)
 		{
 

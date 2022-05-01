@@ -1,4 +1,4 @@
-package au.edu.unimelb.ds.week3.ThreadSync;
+package au.edu.unimelb.ds.week4.ThreadSync;
 
 // Code adapted from Tutorialspoint
 

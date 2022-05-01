@@ -1,7 +1,9 @@
 # gradle-fat-jar
 
 This repository is a boilerplate for easily creating uber jars, as well as sample code for teaching COMP90015 tutorials. 
-# Week 1
+First week has no tutorial, therefore the week number has been updated(+1).
+
+# Week 2
 ## What is a fat jar(Uber jar)?
 Essentially, it's an archive(compressed) file packed with all dependencies required to run a java application, therefore end-users don't have to download them manually.  
 The manifest file tells java what (default) main class to execute in the uber jar.
@@ -22,12 +24,12 @@ If you are familiar with Maven, you can use Maven [Shade](https://maven.apache.o
 For command line parser, use java scanner class or [Apache common CLI](https://commons.apache.org/proper/commons-cli/)  
 Don't forget to change package name, app name, version, etc. if you adopt this repository.
 
-# Week 2
-Simple TCP/UDP example program located at [au.edu.unimelb.ds.week2](https://github.com/jie-jay/gradle-fat-jar/tree/master/src/main/java/au/edu/unimelb/ds/week2).  
+# Week 3
+Simple TCP/UDP example program located at [au.edu.unimelb.ds.week3](https://github.com/jie-jay/gradle-fat-jar/tree/master/src/main/java/au/edu/unimelb/ds/week3).  
 To run the demo applications, build an uber jar and run with:
 ```shell
-java -cp build/libs/fatjarapp-0.1.0-all.jar au.edu.unimelb.ds.week2.UDPServer
-java -cp build/libs/fatjarapp-0.1.0-all.jar au.edu.unimelb.ds.week2.UDPServer
+java -cp build/libs/fatjarapp-0.1.0-all.jar au.edu.unimelb.ds.week3.UDPServer
+java -cp build/libs/fatjarapp-0.1.0-all.jar au.edu.unimelb.ds.week3.UDPServer
 ```
 ## Why we need the full classname?
 Because in the uber jar, there is only one main class given in the manifest.  
@@ -35,7 +37,7 @@ You'll need to tell java where the class is located (by using classpath/cp param
 
 Please feel free to send pull requests if you find any issue or have recommendation for improving the code.
 
-# Week 3
+# Week 4
 Demo of multi-threaded server using one thread per client/request architecture.
 A quick demo of using the synchronized keyword and a racing/inconsistent state if the thread is not synced between threads.
 
@@ -43,13 +45,22 @@ A quick demo of using the synchronized keyword and a racing/inconsistent state i
 There are two delibrate common mistakes which should be avoided while doing multi-threaded programming, can you figure them out? 
 In the print demo, thread one finishs exection before thread two starts(CPUs are so fast these days). Can you implement a version that two threads print interleaving messages?
 
-# Week 4     
+# Week 5     
 Simple GUI demo and introduced Eclipse window builder and Netbeans GUI builder.
 Jetbrain has a GUI builder as well, but it requires additional knowledge which is not covered in this course. Therefore, it's not recommended.
 
-# Week 5
-Introducing JSON for object serialization/de-serialization. 
+# Week 6
+Introducing JSON for object serialization/de-serialization.
 
+# Week 7
+All talk no code.
+
+# Week 8
+ANZAC day public holiday.
+
+# Week 9
+[au.edu.unimelb.ds.week9](https://github.com/jie-jay/gradle-fat-jar/tree/master/src/main/java/au/edu/unimelb/ds/week9)
+#
 
 ---
 Maintainer: zhao dot j4 at student dot unimelb dot edu dot au  

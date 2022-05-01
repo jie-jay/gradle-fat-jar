@@ -1,6 +1,5 @@
-package au.edu.unimelb.ds.week5;
+package au.edu.unimelb.ds.week6;
 import javax.json.Json;
-import javax.json.JsonObject;
 import javax.json.JsonObjectBuilder;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -37,7 +36,7 @@ public class Client {
 
     		System.out.println(command);
     		
-    		// Read hello from server..
+    		// Read hello from server.
     		String message = input.readUTF();	// read response
     		System.out.println(message);
     		

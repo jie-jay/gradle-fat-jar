@@ -1,4 +1,4 @@
-package au.edu.unimelb.ds.week5;
+package au.edu.unimelb.ds.week6;
 
 public class Math {
 	public int add(int x, int y){

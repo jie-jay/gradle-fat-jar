@@ -1,4 +1,4 @@
-package au.edu.unimelb.ds.week2;
+package au.edu.unimelb.ds.week3;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
