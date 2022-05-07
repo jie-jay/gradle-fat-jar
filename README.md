@@ -57,9 +57,16 @@ All talk no code.
 
 # Week 8
 ANZAC day public holiday.
+RMI
 
 # Week 9
 [au.edu.unimelb.ds.week9](https://github.com/jie-jay/gradle-fat-jar/tree/master/src/main/java/au/edu/unimelb/ds/week9)
+Send/Receive files through socket.
+#
+
+# Week 10
+[au.edu.unimelb.ds.week10](https://github.com/jie-jay/gradle-fat-jar/tree/master/src/main/java/au/edu/unimelb/ds/week10)
+AES encryption.
 #
 
 ---
