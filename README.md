@@ -57,6 +57,8 @@ All talk no code.
 
 # Week 8
 ANZAC day public holiday.
+[au.edu.unimelb.ds.week8](https://github.com/jie-jay/gradle-fat-jar/tree/master/src/main/java/au/edu/unimelb/ds/week8)
+
 RMI
 
 # Week 9
