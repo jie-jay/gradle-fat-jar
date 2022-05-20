@@ -71,6 +71,12 @@ Send/Receive files through socket.
 AES encryption.
 #
 
+# Week 11
+All talk no code.
+
+# Week 12
+Simple SSL echo server.
+
 ---
 Maintainer: zhao dot j4 at student dot unimelb dot edu dot au  
 License: [The Unlicense](https://unlicense.org/) - Use it whatever and however you like.  
